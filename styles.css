@@ -37,3 +37,22 @@ box-sizing: border-box;
 	margin: 10px;
 }
 
+form .display {
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px 0;
+	color:#e3f9ff
+
+}
+
+form .display input {
+	text-align: right;
+	flex:1;
+	font-size: 45px;
+	box-shadow: none;
+
+}
+
+form input.equality {
+	width: 145px;
+}
