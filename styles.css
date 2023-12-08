@@ -9,16 +9,19 @@ box-sizing: border-box;
 .container {
 	height: 100vh;
 	width: 100%;
-	background-color: #e3f9ff;
-	display: flex;
+	background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .calculator {
-	background-color:rgb(166, 23, 23);
+	background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%);
 	padding:20px;
 	border-radius: 5px;
+
+	box-shadow: 
+	
+	1px 1px 1px 15px rgba(109, 120, 159, 0.2);
 }
 
 .calculator form input {
